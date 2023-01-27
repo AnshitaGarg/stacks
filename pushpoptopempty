@@ -1,0 +1,18 @@
+#include<iostream>
+#include<stack>
+using namespace std;
+int main(){
+    stack<string> s;
+    s.push("Anshita");
+    s.push("Avika");
+    s.push("Ashish");
+    cout<<s.size();
+    cout<<endl;
+    while(!s.empty()){
+        cout<<s.top()<<endl;
+        s.pop()
+;    }
+     cout<<s.size();
+     return 0;
+
+}
